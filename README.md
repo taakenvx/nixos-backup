@@ -1,6 +1,6 @@
 # nixos-backup
 
-my personal nixos dotfiles — minimal wayland setup built around dwl.
+my personal nixos dotfiles — a minimal wayland setup built around dwl. nothing fancy, just what works for me.
 
 ![setup](setupkk.png)
 
@@ -41,19 +41,19 @@ my personal nixos dotfiles — minimal wayland setup built around dwl.
 | `Super + Shift + D` | discord |
 | `Super + Shift + S` | spotify |
 | `Super + Shift + X` | sober (roblox) |
-| `Super + Ctrl + S` | screenshot de área |
+| `Super + Ctrl + S` | area screenshot |
 
 ### window management
 
 | key | action |
 |---|---|
-| `Super + Q` | fechar janela |
-| `Super + J / K` | navegar entre janelas |
-| `Super + H / L` | redimensionar área principal |
+| `Super + Q` | close window |
+| `Super + J / K` | focus next / prev window |
+| `Super + H / L` | resize master area |
 | `Super + Shift + Space` | toggle floating |
 | `Super + Shift + F` | toggle fullscreen |
 | `Super + I` | toggle waybar |
-| `Super + Tab` | alternar para tag anterior |
+| `Super + Tab` | switch to previous tag |
 
 ### layouts
 
@@ -67,29 +67,29 @@ my personal nixos dotfiles — minimal wayland setup built around dwl.
 
 | key | action |
 |---|---|
-| `Super + 1-5` | ir para tag |
-| `Super + Ctrl + 1-5` | mostrar tag adicional |
-| `Super + Shift + 1-5` | mover janela para tag |
-| `Super + 0` | mostrar todas as tags |
+| `Super + 1-5` | go to tag |
+| `Super + Ctrl + 1-5` | show additional tag |
+| `Super + Shift + 1-5` | move window to tag |
+| `Super + 0` | show all tags |
 
 ### mouse
 
 | combo | action |
 |---|---|
-| `Super + botão esquerdo` | mover janela |
-| `Super + botão direito` | redimensionar janela |
-| `Super + botão do meio` | toggle floating |
+| `Super + left click` | move window |
+| `Super + right click` | resize window |
+| `Super + middle click` | toggle floating |
 
-### mídia e sistema
+### media and system
 
 | key | action |
 |---|---|
-| `XF86AudioRaiseVolume` | volume + |
-| `XF86AudioLowerVolume` | volume - |
+| `XF86AudioRaiseVolume` | volume up |
+| `XF86AudioLowerVolume` | volume down |
 | `XF86AudioMute` | mute |
-| `XF86MonBrightnessUp/Down` | brilho |
-| `XF86AudioPlay/Next/Prev` | controle de mídia |
-| `Super + Shift + Q` | sair do dwl |
+| `XF86MonBrightnessUp/Down` | brightness |
+| `XF86AudioPlay/Next/Prev` | media controls |
+| `Super + Shift + Q` | quit dwl |
 
 ---
 
@@ -126,4 +126,8 @@ sudo cp configuration.nix flake.nix flake.lock home.nix /etc/nixos/
 sudo nixos-rebuild switch --flake /etc/nixos#nixos
 ```
 
-dwl precisa ser compilado manualmente — veja `config.h` para dependências.
+dwl needs to be compiled manually — check `config.h` for dependencies.
+
+---
+
+*README.md by Claude AI*
