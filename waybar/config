@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 26,
+    "width": 600,
+    "margin-bottom": 4,
+    "exclusive": true,
+    "output": "HDMI-A-1",
+    "modules-left": ["dwl/tags"],
+    "modules-center": [],
+    "modules-right": ["clock"],
+
+    "dwl/tags": {
+        "num-tags": 5,
+        "tag-labels": ["I", "II", "III", "IV", "V"]
+    },
+
+    "clock": {
+        "format": "dwl | {:%a %d %b %H:%M:%S}",
+        "interval": 1
+    }
+}

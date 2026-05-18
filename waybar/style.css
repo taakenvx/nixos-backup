@@ -1,0 +1,39 @@
+* {
+    font-family: "Noto Serif", serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: #2a1018;
+    color: #b08090;
+}
+
+#tags button {
+    padding: 0 6px;
+    color: #3d2028;
+    background: transparent;
+    min-width: 18px;
+}
+
+#tags button.occupied {
+    color: #b08090;
+    border-bottom: 2px solid #b08090;
+}
+
+#tags button.focused {
+    color: #2a1018;
+    background: #b08090;
+}
+
+#tags button.urgent {
+    color: #ff3030;
+}
+
+#clock {
+    padding: 0 12px;
+    color: #b08090;
+}

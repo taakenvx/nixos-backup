@@ -1,0 +1,14 @@
+{
+  "logo": {
+    "type": "builtin",
+    "source": "nixos_small"
+  },
+  "modules": [
+    "os",
+    { "type": "kernel", "format": "{release}-i love femboys" },
+    "shell",
+    "wm",
+    "memory",
+    "uptime"
+  ]
+}
