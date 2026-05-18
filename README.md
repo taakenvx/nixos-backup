@@ -1,6 +1,6 @@
 # nixos-backup
 
-my personal nixos dotfiles — a minimal wayland setup built around dwl. nothing fancy, just what works for me.
+my personal nixos dotfiles.
 
 ![setup](setupkk.png)
 
